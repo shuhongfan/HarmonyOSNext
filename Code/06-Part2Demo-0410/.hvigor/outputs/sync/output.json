@@ -1,0 +1,160 @@
+{
+  "ohos-module-entry": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\build",
+    "DEPENDENCY_INFO": {},
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\src\\main",
+        "RESOURCES_PATH": [
+          "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
+          "WORKER_LOADER": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      },
+      "ohosTest": {
+        "SOURCE_ROOT": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\src\\ohosTest",
+        "RESOURCES_PATH": [
+          "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\src\\ohosTest\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\build\\default\\outputs\\ohosTest",
+          "INTERMEDIA_PATH": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\build\\default\\intermediates\\loader_out\\ohosTest",
+          "JS_LITE_ASSETS_PATH": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\build\\default\\intermediates\\loader_out_lite\\ohosTest",
+          "RES_PATH": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\build\\default\\intermediates\\res\\ohosTest",
+          "RES_PROFILE_PATH": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\build\\default\\intermediates\\res\\ohosTest\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileJS\\jsbundle",
+          "WORKER_LOADER": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\build\\default\\intermediates\\loader\\ohosTest\\loader.json",
+          "MANIFEST_JSON": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\build\\default\\intermediates\\manifest\\ohosTest",
+          "OUTPUT_METADATA_JSON": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry\\build\\default\\intermediates\\hap_metadata\\ohosTest\\output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    }
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\build",
+    "BUNDLE_NAME": "com.example.part2demo",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\build\\outputs\\default"
+    },
+    "MODULES": [
+      {
+        "name": "entry",
+        "srcPath": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410\\entry",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410"
+      }
+    ],
+    "PROFILE_OPT": {
+      "app": {
+        "signingConfigs": [],
+        "products": [
+          {
+            "name": "default",
+            "signingConfig": "default",
+            "compatibleSdkVersion": "4.1.0(11)",
+            "runtimeOS": "HarmonyOS"
+          }
+        ],
+        "buildModeSet": [
+          {
+            "name": "debug"
+          },
+          {
+            "name": "release"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "name": "entry",
+          "srcPath": "./entry",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "CONFIG_PROPERTIES": {
+      "enableSignTask": true,
+      "skipNativeIncremental": false,
+      "hvigor.keepDependency": true
+    },
+    "OVERALL_PROJECT_PATHS": [
+      "C:\\Users\\shf\\Desktop\\HarmonyOSNext\\Code\\06-Part2Demo-0410"
+    ]
+  },
+  "version": 1
+}

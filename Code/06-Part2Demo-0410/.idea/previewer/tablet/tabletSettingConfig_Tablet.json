@@ -1,0 +1,53 @@
+{
+  "setting": {
+    "1.0.1": {
+      "Language": {
+        "args": {
+          "Language": "zh-CN"
+        }
+      },
+      "AvoidArea": {
+        "args": {
+          "topRect": {
+            "posX": 0,
+            "posY": 0,
+            "width": 2560,
+            "height": 97.5
+          },
+          "leftRect": {
+            "posX": 0,
+            "posY": 97.5,
+            "width": 0,
+            "height": 0
+          },
+          "rightRect": {
+            "posX": 2560,
+            "posY": 97.5,
+            "width": 0,
+            "height": 0
+          },
+          "bottomRect": {
+            "posX": 0,
+            "posY": 2256,
+            "width": 1530,
+            "height": 70
+          }
+        }
+      }
+    }
+  },
+  "frontend": {
+    "1.0.0": {
+      "Resolution": {
+        "args": {
+          "Resolution": "1024*640"
+        }
+      },
+      "DeviceType": {
+        "args": {
+          "DeviceType": "tablet"
+        }
+      }
+    }
+  }
+}

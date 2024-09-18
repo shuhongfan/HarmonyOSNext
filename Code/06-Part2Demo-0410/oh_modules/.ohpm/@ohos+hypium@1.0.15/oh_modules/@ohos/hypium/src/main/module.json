@@ -1,0 +1,25 @@
+{
+	"app": {
+		"bundleName": "com.example.test20240117",
+		"debug": true,
+		"versionCode": 1000000,
+		"versionName": "1.0.0",
+		"minAPIVersion": 9,
+		"targetAPIVersion": 9,
+		"apiReleaseType": "Release",
+		"compileSdkVersion": "3.2.3.6",
+		"compileSdkType": "HarmonyOS"
+	},
+	"module": {
+		"name": "hypium",
+		"type": "har",
+		"deviceTypes": [
+			"default",
+			"phone",
+			"tablet",
+			"tv",
+			"wearable",
+			"car"
+		]
+	}
+}

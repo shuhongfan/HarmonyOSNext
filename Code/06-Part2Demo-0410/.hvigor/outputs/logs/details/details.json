@@ -1,0 +1,94 @@
+{
+  "HVIGOR_OHOS_PLUGIN": {
+    "MODULE_CONFIG": [
+      {
+        "MODULE_NAME": "entry",
+        "API_TYPE": "stageMode",
+        "TARGETS": [
+          {
+            "name": "default"
+          },
+          {
+            "name": "ohosTest"
+          }
+        ],
+        "DEVICE_TYPES": [
+          "phone",
+          "tablet",
+          "2in1"
+        ],
+        "AOT_COMPILE_MODE": "type"
+      }
+    ],
+    "PROJECT_CONFIG": {
+      "PRODUCTS": [
+        {
+          "NAME": "default",
+          "COMPATIBLE_SDK_VERSION": "4.1.0(11)",
+          "RUNTIMEOS": "HarmonyOS"
+        }
+      ],
+      "BUILD_MODE_SET": [
+        {
+          "NAME": "debug"
+        },
+        {
+          "NAME": "release"
+        }
+      ],
+      "MODULES": [
+        {
+          "TARGETS": [
+            {
+              "NAME": "default"
+            }
+          ]
+        }
+      ],
+      "BUILD_MODE": "debug"
+    }
+  },
+  "totalTime": 10899530100,
+  "moduleNum": 1,
+  "taskTime": {
+    "compileArkTS": 0,
+    "buildArkTS": 0,
+    "compileJS": 0,
+    "buildJS": 0,
+    "compileResource": 241689600,
+    "packageHap": 0,
+    "signHap": 0
+  },
+  "isIncremental": true,
+  "hasIncremental": false,
+  "isParallel": true,
+  "IS_DAEMON": true,
+  "LOG_LEVEL": "INFO",
+  "IS_HVIGORFILE_TYPE_CHECK": false,
+  "TASK_TIME": {
+    "entry": {
+      "init": 656500,
+      "PreBuild": 198576000,
+      "MergeProfile": 24653500,
+      "CreateBuildProfile": 4180700,
+      "PreCheckSyscap": 452100,
+      "GeneratePkgContextInfo": 673000,
+      "ProcessProfile": 106520700,
+      "ProcessRouterMap": 3726400,
+      "PreviewProcessResource": 3243000,
+      "GenerateLoaderJson": 13372900,
+      "PreviewCompileResource": 241689600,
+      "PreviewHookCompileResource": 601000,
+      "CopyPreviewProfile": 10079900,
+      "ReplacePreviewerPage": 1885900,
+      "buildPreviewerResource": 948600,
+      "PreviewUpdateAssets": 8734000,
+      "PreviewArkTS": 9885469400,
+      "PreviewBuild": 1150200
+    },
+    "": {
+      "init": 286200
+    }
+  },
+  "BUILD_ID": "202409181611204690"
+}
